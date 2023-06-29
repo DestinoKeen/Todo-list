@@ -1,0 +1,100 @@
+/*
+ * App Global CSS
+ * ----------------------------------------------------------------------------
+ * Put style rules here that you want to apply globally. These styles are for
+ * the entire app and not just one component. Additionally, this file can be
+ * used as an entry point to import other CSS/Sass files to be included in the
+ * output CSS.
+ * For more information on global stylesheets, visit the documentation:
+ * https://ionicframework.com/docs/layout/global-stylesheets
+ */
+
+/* Core CSS required for Ionic components to work properly */
+@import "@ionic/angular/css/core.css";
+
+/* Basic CSS for apps built with Ionic */
+@import "@ionic/angular/css/normalize.css";
+@import "@ionic/angular/css/structure.css";
+@import "@ionic/angular/css/typography.css";
+@import '@ionic/angular/css/display.css';
+
+/* Optional CSS utils that can be commented out */
+@import "@ionic/angular/css/padding.css";
+@import "@ionic/angular/css/float-elements.css";
+@import "@ionic/angular/css/text-alignment.css";
+@import "@ionic/angular/css/text-transformation.css";
+@import "@ionic/angular/css/flex-utils.css";
+
+
+input{
+    padding: 20px;
+    background-color: red;
+    border-radius: 10px;
+  }
+
+  input:hover{
+    padding: 30px;
+  }
+
+  #todolist{display: flex; height: 100%; width: 100%; background-color: aliceblue; }
+  #content{
+    background-color: white; height: 80%; width: 30%; border-radius: 50px; margin-top: 50px;
+    margin-left: 35%; box-shadow: 20px;
+  }
+  #ul{
+    margin-top: 100px;
+  }
+  #icon{
+    margin-right: 100%;
+  }
+  
+
+  li{
+    background-color: rgb(111, 162, 240);
+    border-radius: 20px;
+    padding: 3%;
+    display: flex;
+    margin: 10px;
+    height: 50px;
+    margin: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+ 
+  ion-fab-button{
+    margin-top: 900%;
+    margin-left: 550%;
+  }
+
+        *{ padding: 0px; margin: 0px;}
+        // #button{
+        //   padding: 20px;
+        //   border-radius: 10px;
+        //   margin: 5px;
+        // }
+       
+        // #value{
+        //   padding: 20px;
+        //   margin: 7px; 
+        // }
+        // #container{
+        //         width: 20%;
+        // }
+        .container{
+          text-align: center;
+          background-color: aquamarine; 
+          overflow: auto ;
+          width: 30% ;  
+                 
+            }
+
+               
+                  span{
+                    margin-left: 180px;
+                    
+                  }
+            
+                  
+                
+        
